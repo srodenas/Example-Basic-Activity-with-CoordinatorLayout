@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.CoordinatorScrolling" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+
+        <!-- Estilo del título en la Toolbar -->
+        <item name="toolbarStyle">@style/Widget.Material3.Toolbar</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleTextStyle</item>
+    </style>
+
+    <!-- Tema de la aplicación -->
+    <style name="Theme.CoordinatorScrolling" parent="Base.Theme.CoordinatorScrolling" />
+
+    <!-- Estilo para el título de la Toolbar -->
+    <style name="ToolbarTitleTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
